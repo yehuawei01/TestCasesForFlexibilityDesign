@@ -1,0 +1,4 @@
+iThis dataset is obtained from the Fixed Charge Transportation Benchmark testing cases posted on DECISION TREE FOR OPTIMIZATION SOFTWARE (http://plato.asu.edu/guide.html) website maintained by Hans D. Mittelmann.
+Link to the dataset: http://plato.asu.edu/sub/testcases.html
+
+The ‘mps2input.py’ file converts each mps file into a .pkl file which provides the input for a test scenario with stochastic demand.
