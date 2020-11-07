@@ -21,7 +21,7 @@ then followed by 'cvXXX' which specifies the coefficient of variation of the dem
 The conversion is done by setting capacity of the source nodes and the fixed costs of the arcs of the original problem;
 setting the demand of the sink node as expected demand, and set the standard deviation of the demand of the sink node as 
 (expected demand * coef_var);
-and setting profit_mat[i,j] for arc connecting from source node i to demand node j as
+and setting profit_mat[i,j] for arc connecting from source node i to sink/demand node j as
 P - t_{ij}, where t_{ij} is the transportation cost from i to j in the original problem, 
 P = max_{(i,j)} (I_{ij} + t_{ij}), and I_{ij} is the fixed charge on having arc (i,j).
 
