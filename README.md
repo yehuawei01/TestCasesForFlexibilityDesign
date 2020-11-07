@@ -1,2 +1,9 @@
-# TestCasesForFlexibilityDesign
-Test cases for the flexibility design problems
+# Overview
+This repository contains some testing cases for the flexibility design problems and some python codes for generating new testing cases.
+This is intended to provide some benchmarks for testing heuristics proposed for solving general flexibility design problems.
+All testing cases are saved in .pkl format.
+
+# Folders
+- classical_fdp_test_cases - testing cases from two papers in the literature, and the python codes for generating the cases.
+- example - 'example_read_testing_case.py' provides an simple example of reading a testing case; 'inputgeneration.py' provides the code for arbitrarily generating a flexibility design testing case.
+- original_fctp_test_cases - flexibility design testing cases generated from the Fixed Charge Transportation (FCT) testing cases posted on DECISION TREE FOR OPTIMIZATION SOFTWARE (http://plato.asu.edu/guide.html). It also contains all of the original FCT testing cases and the ‘mps2input.py’ file which reads the original mps files and convert into a flexibility design testing case.
