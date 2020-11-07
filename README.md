@@ -1,2 +1,2 @@
 # TestCasesForFlexibilityDesign
-test cases for the flexibility design problem
+Test cases for the flexibility design problems
