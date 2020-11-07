@@ -19,7 +19,7 @@ import pickle
 
 if __name__ == "__main__":
 
-    m=8; n=12
+    m=50; n=100
     
     
     #capacity vector
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     #average demand vector
     mean_d = sum(mean_c)/n*np.ones(n)
     #demand standard deviation vector
-    coef_var = 0.8
+    coef_var = 0.5
     sd_d = mean_d*coef_var
     
     #profit matrix
