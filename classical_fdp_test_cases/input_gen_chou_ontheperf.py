@@ -45,7 +45,6 @@ if __name__ == "__main__":
             profit_mat[i,j] = price[j]*0.24
     
     #target_arc = # of arcs in the network; this is different values of target arcs to compute
-    target_arcs = list(range(n,n+2*m,3))
     
     #First stage costs -- fixed cost of each arc
     fixed_costs = np.zeros((m,n))
@@ -59,7 +58,6 @@ if __name__ == "__main__":
         pickle.dump(mean_d,f)
         pickle.dump(sd_d,f)
         pickle.dump(profit_mat,f)
-        pickle.dump(target_arcs,f)
         pickle.dump(fixed_costs,f)
         pickle.dump(flex_0,f)
     

@@ -98,3 +98,49 @@ name: 142 rows, 240 columns, 480 nonzeros
 Read MPS format model from file ran12x12.mps
 Reading time = 0.00 seconds
 RAN12X12: 168 rows, 288 columns, 576 nonzeros
+
+Gurobi 8.1.1 (mac64, Python) logging started Fri Nov  6 22:43:22 2020
+
+Academic license - for non-commercial use only
+Read MPS format model from file ran12x21.mps
+Reading time = 0.00 seconds
+RAN12X21: 285 rows, 504 columns, 1008 nonzeros
+Read MPS format model from file ran6x43.mps
+Reading time = 0.00 seconds
+name: 307 rows, 516 columns, 1032 nonzeros
+Read MPS format model from file ran10x26.mps
+Reading time = 0.00 seconds
+RAN10X26: 296 rows, 520 columns, 1040 nonzeros
+Read MPS format model from file ran17x17.mps
+Reading time = 0.00 seconds
+RAN17X17: 323 rows, 578 columns, 1156 nonzeros
+Read MPS format model from file ran8x32.mps
+Reading time = 0.00 seconds
+RAN8X32: 296 rows, 512 columns, 1024 nonzeros
+Read MPS format model from file ran14x18.mps
+Reading time = 0.00 seconds
+RAN14X18: 284 rows, 504 columns, 1008 nonzeros
+Read MPS format model from file ran13x13.mps
+Reading time = 0.00 seconds
+RAM13X13: 195 rows, 338 columns, 676 nonzeros
+Read MPS format model from file ran10x10c.mps
+Reading time = 0.00 seconds
+RANDR38: 120 rows, 200 columns, 400 nonzeros
+Read MPS format model from file ran10x10b.mps
+Reading time = 0.00 seconds
+name: 120 rows, 200 columns, 400 nonzeros
+Read MPS format model from file ran10x10a.mps
+Reading time = 0.00 seconds
+name: 120 rows, 200 columns, 400 nonzeros
+Read MPS format model from file ran16x16.mps
+Reading time = 0.00 seconds
+RAN16X16: 288 rows, 512 columns, 1024 nonzeros
+Read MPS format model from file ran4x64.mps
+Reading time = 0.00 seconds
+name: 324 rows, 512 columns, 1024 nonzeros
+Read MPS format model from file ran10x12.mps
+Reading time = 0.00 seconds
+name: 142 rows, 240 columns, 480 nonzeros
+Read MPS format model from file ran12x12.mps
+Reading time = 0.00 seconds
+RAN12X12: 168 rows, 288 columns, 576 nonzeros
