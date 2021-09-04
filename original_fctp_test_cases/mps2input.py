@@ -76,7 +76,7 @@ def load_mps(mps_filename, coef_var):
         elif var.VarName[0] == 'Y':
             fixed_costs[i, j] = var.Obj
 
-    # the profit of a flow is set to 2 times the max flow cost on an arc - the flow cost
+    # the profit of a flow on arc (i,j) set to the maximum{flow cost + fixed cost over all arcs} - the flow cost of (i,j)
     costsum_mat = cost_mat + fixed_costs
     profit_mat = costsum_mat.max() - cost_mat
 
